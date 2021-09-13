@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(36,123,160);
+  align-content: center;
+}
+
+.app-div {
+  height: 98vh;
+  width: 98%;
+  margin-left: 5px;
+  border-radius: 25px;
+  background-color: rgb(27,152,224);
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(16,86,127);
+}
+
+.quiz-card {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.question-block {
+  width: 75%;
+  margin: auto;
+}
+
+.answer-btns {
+  width: 50%;
+  height: 30vh;
+  background-color: rgb(73,174,233);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  border-color: rgb(22,123,182);
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons {
+  outline: none;
+  margin: auto;
+  padding: 50%;
+  border-style: solid;
+  border-color: white;
+  border-radius: .25em;
+  background: inherit;
+  cursor: pointer;
+  padding: .4em .8em;
+  text-rendering: optimizeLegibility;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: bold;
+  color: white;
+  -webkit-transform: translateY(-.2em);
+  -moz-transform: translateY(-.2em);
+  transform: translateY(-.2em)
+}
+
+.buttons:hover,
+.buttons.hover{
+  background:rgb(27,152,224);
+}
+
+.score-card {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.total-score {
+  font-size:larger
+}
+
+.actual-score {
+  font-size: x-large;
+  font-weight: bolder;
+}
