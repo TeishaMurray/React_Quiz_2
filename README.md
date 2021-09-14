@@ -1,3 +1,6 @@
+React Quiz
+An online quiz that uses the React Library to test your knowledge of JavaScript Array Methods.
+
 Description
 Uses multiple components to pass quiz data (questions, answers, and scoring) in order to make the UI more interactive. Each answer is a button which populates the next question while also keeping score of correct answers. 
 
